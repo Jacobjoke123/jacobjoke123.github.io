@@ -3,12 +3,12 @@ body, html {
     margin: 0;
     font: 400 15px/1.8 "Lato", sans-serif;
     color: black;
+    z-index: 0;
 }
 .bimg {
     background-image: url(resources/me.jpg);
     width: 100%;
     height: 75%;
-    margin-top: 0px;
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -31,4 +31,32 @@ body, html {
 }
 h1{
    
+}
+.topnav{
+    background-color: rgba(75, 30, 145, .7);
+    position: fixed;
+    width: 100%;
+    display: inline;
+    border-bottom: 2px solid grey;
+    list-style: none;
+    z-index: 5;
+}
+.content{
+    background-color: rgb(75, 30, 145);
+    width: 100%;
+    
+}
+ul#horizontal-list li{
+    display: inline
+}
+.topnav a{
+    text-decoration: none;
+    color: white;
+    margin: 0px;
+    margin-right: 40px;
+    font-size: 18px;
+}
+.box{
+    height: 1080px;
+    color:aliceblue;
 }
