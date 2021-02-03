@@ -16,14 +16,19 @@ body, html {
 }
 .caption {
     position: absolute;
-    top: 50%;
+    top: 60%;
     color: white;
     background-color: rgba(0, 0, 0, .75);
     width:100%;
-}
-h1{
+    left: 0;
     text-align: center;
-    font-size: 102px;
+    
+}
+.captxt{
+    font-size: 70px;
     text-emphasis-color: white;
     margin: 0px;
+}
+h1{
+   
 }
