@@ -6,10 +6,10 @@ body, html {
     z-index: 0;
 }
 .bimg {
-    background-image: url(resources/me.jpg);
+    background-image: url(resources/me2.png);
     width: 100%;
     height: 80%;
-    background-position: center;
+    background-position: center top;
     background-repeat: no-repeat;
     background-size: cover;
     background-attachment: fixed; 
