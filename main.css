@@ -158,6 +158,11 @@ ul.links a:hover{
     padding:0px;
     font-family: Arial;
 }
+.textbox h3{
+    font-style: bold;
+    margin: 0px;
+    
+}
 #nozzle{
     position:absolute;
     background-image:url(resources/Nozzle.jpg);
